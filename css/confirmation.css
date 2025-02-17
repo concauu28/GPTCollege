@@ -1,0 +1,78 @@
+/* Confirmation Page Styles */
+.confirmation-content {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.confirmation-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #e2e2e2;
+}
+
+.welcome-message {
+    font-size: 18px;
+    color: #e2e2e2;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.next-steps {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.next-steps h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #e2e2e2;
+}
+
+.next-steps ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #e2e2e2;
+    line-height: 1.6;
+}
+
+.next-steps ol li {
+    margin-bottom: 10px;
+}
+
+.institutional-link {
+    font-size: 16px;
+    color: #e2e2e2;
+    margin-bottom: 20px;
+}
+
+.institutional-link a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.institutional-link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .confirmation-content h1 {
+        font-size: 36px;
+    }
+
+    .welcome-message {
+        font-size: 16px;
+    }
+
+    .next-steps h2 {
+        font-size: 20px;
+    }
+
+    .next-steps ol {
+        font-size: 14px;
+    }
+}

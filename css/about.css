@@ -1,0 +1,70 @@
+/* About Us Page Styles */
+.about-content {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mission-header,
+.story-header {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.mission-container,
+.story-container {
+    display: flex;
+    align-items: center;
+    gap: 40px; /* Space between the photo and text */
+    margin-bottom: 80px; /* Space between sections */
+}
+
+.mission-photo,
+.story-photo {
+    flex: 1; /* Takes up 50% of the space */
+}
+
+.mission-photo img,
+.story-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Adds rounded corners to the image */
+}
+
+.mission-text,
+.story-text {
+    flex: 1; /* Takes up 50% of the space */
+    font-size: 18px;
+    line-height: 1.8;
+    color: #ffffff;
+}
+
+.mission-text p,
+.story-text p {
+    margin-bottom: 20px;
+}
+
+/* Reverse layout for Our Story section */
+.story-container {
+    flex-direction: row-reverse; /* Photo on the right, text on the left */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .mission-container,
+    .story-container {
+        flex-direction: column; /* Stack the divs vertically on smaller screens */
+    }
+
+    .mission-header,
+    .story-header {
+        font-size: 36px; /* Reduce font size for smaller screens */
+    }
+
+    .mission-text,
+    .story-text {
+        font-size: 16px; /* Reduce text size for smaller screens */
+    }
+}

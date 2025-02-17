@@ -1,0 +1,81 @@
+/* Courses Page Styles */
+.courses-content {
+    padding: 10px 10px; /* Reduced padding */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.courses-content h1 {
+    text-align: center;
+    font-size: 36px; /* Reduced font size */
+    margin-bottom: 20px; /* Reduced margin */
+    color: #e2e2e2;
+}
+
+.course-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px; /* Reduced padding */
+    margin-bottom: 20px; /* Reduced margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: stretch; 
+    gap: 2px; /* Reduced gap between image and text */
+}
+
+.course-image {
+    flex: 0.7; /* Takes up 40% of the space */
+    height: 236px;
+}
+
+.course-image img {
+    width: auto;
+    height: 100%;
+    border-radius: 10px; /* Optional: Adds rounded corners to the image */
+}
+
+.course-details {
+    flex: 2; /* Takes up 60% of the space */
+}
+
+.course-details h2 {
+    font-size: 20px; /* Reduced font size */
+    margin-bottom: 8px; /* Reduced margin */
+    color: #333;
+}
+
+.course-description {
+    font-size: 14px; /* Reduced font size */
+    color: #555;
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+.course-instructor {
+    font-size: 14px; /* Reduced font size */
+    color: #555;
+    margin-bottom: 8px; /* Reduced margin */
+}
+
+.course-rating {
+    font-size: 14px; /* Reduced font size */
+    color: #f39c12;
+    margin-bottom: 8px; /* Reduced margin */
+}
+
+.course-duration {
+    font-size: 14px; /* Reduced font size */
+    color: #555;
+    margin-bottom: 8px; /* Reduced margin */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .course-card {
+        flex-direction: column; /* Stack image and text vertically on smaller screens */
+    }
+
+    .course-image {
+        text-align: center; /* Center the image on smaller screens */
+    }
+}
